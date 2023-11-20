@@ -12,6 +12,8 @@
 		2CF4365F2B0B5AE40032FC2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF4365E2B0B5AE40032FC2D /* Assets.xcassets */; };
 		2CF436622B0B5AE40032FC2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF436612B0B5AE40032FC2D /* Preview Assets.xcassets */; };
 		2CF4366B2B0B5B040032FC2D /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF4366A2B0B5B040032FC2D /* Task.swift */; };
+		2CF4366D2B0B5FC70032FC2D /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF4366C2B0B5FC70032FC2D /* TaskGroup.swift */; };
+		2CF4366F2B0B60910032FC2D /* TaskSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF4366E2B0B60910032FC2D /* TaskSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2CF436612B0B5AE40032FC2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2CF436632B0B5AE40032FC2D /* MacTaskManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacTaskManager.entitlements; sourceTree = "<group>"; };
 		2CF4366A2B0B5B040032FC2D /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		2CF4366C2B0B5FC70032FC2D /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
+		2CF4366E2B0B60910032FC2D /* TaskSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				2CF4366A2B0B5B040032FC2D /* Task.swift */,
+				2CF4366C2B0B5FC70032FC2D /* TaskGroup.swift */,
+				2CF4366E2B0B60910032FC2D /* TaskSection.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,6 +158,8 @@
 			files = (
 				2CF4365D2B0B5AE20032FC2D /* ContentView.swift in Sources */,
 				2CF4366B2B0B5B040032FC2D /* Task.swift in Sources */,
+				2CF4366F2B0B60910032FC2D /* TaskSection.swift in Sources */,
+				2CF4366D2B0B5FC70032FC2D /* TaskGroup.swift in Sources */,
 				2CF4365B2B0B5AE20032FC2D /* MacTaskManagerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
